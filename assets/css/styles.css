@@ -137,13 +137,13 @@ table {
 /* PRIMEIRO */
 body {
   font-family: sans-serif; /* fonte sem serifa */
-  font-size: 16px; /* tamanho da fonte, o tamnho padrão já é 16px */
-  background-color: rgb(85, 67, 134);
+  font-size: 18px; /* tamanho da fonte, o tamnho padrão já é 16px */
+  background-color: rgb(137, 17, 218);
 }
 
 .container {
   max-width: 600px; /* Largura máxima do container */
-  background-color: rgb(204, 39, 154);
+  background-color: rgb(214, 218, 12);
   /* border-width: 1px;
       border-style: solid;
       border-color: red; */
@@ -155,17 +155,18 @@ body {
 }
 
 .img-fluid {
-  width: 100%; /* Largura 100% */
+  width: 200%; /* Largura 100% */
   height: auto;
+  border: 5px solid purple;
 }
 
 .text-center {
   text-align: center; /* Alinha o texto dos filhos do elemento*/
-  color: black; /* Define a cor dos filhos do elemento*/
+  color: purple; /* Define a cor dos filhos do elemento*/
 }
 
 h1 {
-  color: rgb(0, 0, 0); /* Define a cor do texto */
+  color: purple;(85, 67, 134); /* Define a cor do texto */
 }
 
 input,
@@ -201,26 +202,24 @@ h1 {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 100px;
   text-align: center;
-  border-radius: 10px;
-  border: 8px solid black;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
   border-style: solid;
-  border-width: 3px;
-  border-color: rgb(0, 0, 0);
-  padding: 15px;
-  margin-bottom: 35px;
+  border-width: 1px;
+  border-color: purple;(245, 245, 245);
+  padding: 10px;
+  margin-bottom: 20px;
 }
 .menu li {
   font-weight: bold;
 }
 .menu li a {
-  color: rgb(0, 0, 0);
+  color: rgb(85, 67, 134);
 }
 
 .position-relative {
@@ -232,6 +231,7 @@ h1 {
 .foto {
   max-width: 200px;
   transform: translateX(-30px);
+  border: 10px solid purple;
 }
 
 footer {
